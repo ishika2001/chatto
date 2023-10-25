@@ -1,0 +1,86 @@
+{
+  "name": "chatto-new",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/inter": "^5.0.5",
+    "@fontsource/karla": "^5.0.5",
+    "@headlessui/react": "^1.7.15",
+    "@headlessui/tailwindcss": "^0.1.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@rvxlab/tailwind-plugin-ios-full-height": "^1.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.38",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.14",
+    "axios": "^1.4.0",
+    "framer-motion": "^10.12.20",
+    "rc-slider": "^10.2.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-data-table-component": "^7.5.3",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-input-mask": "^2.0.4",
+    "react-loader-spinner": "^5.3.4",
+    "react-redux": "^8.1.1",
+    "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.4",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-textarea-autosize": "^8.5.2",
+    "react-toastify": "^9.1.3",
+    "redux-persist": "^6.0.0",
+    "scroll-lock": "^2.1.5",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && tailwindcss build src/index.css -o src/tailwind.css",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/rc-slider": "^9.3.1",
+    "@types/react-copy-to-clipboard": "^5.0.4",
+    "@types/react-datepicker": "^4.11.2",
+    "@types/react-input-mask": "^3.0.2",
+    "@types/react-syntax-highlighter": "^15.5.7",
+    "@types/scroll-lock": "^2.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "tailwind-scrollbar": "^3.0.4",
+    "tailwindcss": "^3.3.3"
+  }
+}
